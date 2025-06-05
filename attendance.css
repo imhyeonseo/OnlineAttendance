@@ -13,7 +13,8 @@
 
 /* 버튼에 커서가 올라갔을때 */
 #btn:hover {
-    background-color: lightgreen;
+    background-color: rgb(31, 135, 78);
+    cursor: pointer;
 }
 
 /* 필드셋 크기및 위치조정*/
