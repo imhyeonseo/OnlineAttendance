@@ -1,0 +1,19 @@
+#title {
+    text-align: center;
+    padding: 5px;
+}
+.ui{
+    height: 200px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#floor{
+    width: 100px;
+    height: 40px;
+    margin-left: 75%;
+    margin-top: -50px;
+    margin-bottom: 20px
+}
+#floor:hover{
+    background-color: rgb(198, 198, 198);
+}

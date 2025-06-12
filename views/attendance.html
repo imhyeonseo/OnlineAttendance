@@ -3,22 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./attendance.css">
+    <title>로그인</title>
+    <link rel="stylesheet" href="../public/attendance.css">
 </head>
 <body>
     <fieldset id="fld" width="250px">
         <div class="info" height="100">
-            <label id="imgText"><img src="./school.png" width="72">
+            <label id="imgText"><img src="../public/school.png" width="72">
             <h3>경북소프트웨어 마이스터고 온라인 점호</h3></label>
-            <input type="text" id="userId" placeholder="아이디" size="41">
-            <input type="password" id="userPw" placeholder="비밀번호" size="41">
-            <button id="btn"><label id="btnText"><b>로그인</b></label></button>
+            <div class="view">
+                <select id="floor">
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+                <select id="room">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                </select>
+            </div>
+            <button id="btn"><label id="btnText"><b>접속</b></label></button>
         </div>
         <div class="school">
-            <img src="./schoolview.png" class="img" width="500" height="500" align="right">
+            <img src="../public/schoolview.png" class="img" width="500" height="500" align="right">
         </div>
     </fieldset>
 </body>
-<script src="./attendance.js"></script>
+<script src="../public/attendance.js"></script>
 </html>
