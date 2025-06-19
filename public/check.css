@@ -2,7 +2,6 @@
     text-align: center;
 }
 #btn{
-    margin-left: 620px;
     width: 250px;
 	border-radius: 50%;
     height: 250px;
@@ -15,6 +14,7 @@
 }
 .check{
     margin-top: 150px;
+    text-align: center;
 }
 #btnText{
     font-size: 30px;
